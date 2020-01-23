@@ -1,0 +1,303 @@
+/* Global CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+/* Header Section Start */
+
+header {
+    background-image: url('../images/macbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay {
+    background: rgba(0, 0, 0, .7);
+}
+.mainnavbar {
+    margin-top: 30px;
+}
+.sliderarea {
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.slidercontent h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.same {
+    color: #f7600e;
+}
+.slidercontent p {
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: normal;
+}
+button {
+    margin-top: 87px;
+}
+.btn {
+    padding: 5px 40px;
+    background-color: #f7600e;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover {
+    background-color: #3ada1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Responsive Slide Js Start */
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+/*Responsive Slide JS End */
+
+
+/* Header Section End */
+
+
+/* Works Section Start */
+
+.worksarea {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ourworks h2 {
+    color: #3b434c;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+.ourworks p {
+    padding-top: 30px;
+    color: #7e8286;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: normal;
+}
+.protfolio {
+    margin-top: 90px;
+}
+.protfolio img:hover {
+    height: 300px;
+    background-color: #d8d9db;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.5;
+    cursor: pointer;
+}
+.showmore {
+    margin-top: 80px;
+    text-align: center;
+}
+.link {
+    background-color: #fff;
+    color: #60666e;
+    width: 200px;
+    padding: 10px 30px;
+    border: 2px solid #d8d9db;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.link:hover {
+    background-color: #07a79a;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+/* Works Section End */
+
+
+/* Team Section Start */
+
+.ourteam {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.ourteamtxt h2 {
+    color: #3b434c;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.ourteamtxt p {
+    padding-top: 30px;
+    color: #3b434c;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: normal;
+}
+.teammembers img {
+    margin-top: 80px;
+    filter: grayscale(100%);
+}
+.teammembers img:hover {
+    height: 300px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.5;
+    cursor: pointer;
+    border-bottom: 2px solid #f7600e;
+}
+.teammembers h3 {
+    padding-top: 20px;
+    text-align: center;
+    color: #3b434c;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.teammembers p {
+    padding-top: 25px;
+    color: #787e84;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+/* Team Section End */
+
+
+/* Contact Section Start */
+
+.contactus {
+    background-image: url('../images/photobg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay_1 {
+    background: rgba(0, 0, 0, .5);
+}
+.contacttext {
+    margin-top: 100px;
+    text-align: center;
+}
+.contacttext h2 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contacttext p {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 35px;
+}
+.contactgroup {
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+.form-control {
+    padding: 19px;
+    border-radius: 40px;
+}
+.message {
+    margin-top: 20px;
+}
+.message-control {
+    width: 100%;
+    padding: 20px 0px 140px 20px;
+    border-radius: 25px;
+}
+.hireus {
+    margin-top: 25px;
+}
+
+/*
+.hireus input {
+    background-color: #f7600e;
+    color: #fff;
+    width: 200px;
+    padding: 10px 60px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.hireus_input:hover {
+    background-color: #fd565e;
+    color: #fff;
+    text-decoration: none;
+}
+*/
+
+.submit_btn {
+    background-color: #f7600e;
+    color: #fff;
+    width: 150px;
+    padding:20px;
+    text-transform: capitalize;
+}
+
+/* Contact Section End */
+
+
+/* Footer Section Start */
+
+.footercontent {
+    background-color: #3b434c;
+}
+.copyright p {
+    color: #cfd0d2;
+    float: left;
+    font-weight: normal;
+    padding: 30px 0px 40px 0px;
+}
+.designed p {
+    color: #cfd0d2;
+    float: right;
+    font-weight: normal;
+    padding: 30px 0px 40px 0px;
+}
+.symu {
+    color: #fff;
+    font-weight: bold;
+}
+.fullstop {
+    color: #d42a44;
+}
+
+/* Footer Section End */
